@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRADENGELHARDT</title>
+    <meta name="description" content="Web designer and front-end developer" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- CSS 파일을 link 태그로 수정 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Bootstrap CSS 파일 -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <!-- Animate.css CSS 파일 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .nav-header,
+      .nav-screen,
+      .content,
+      .section {
+        transition: 0.4s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar header -->
+    <div class="nav-header">
+      <div class="nav-brand">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/bradlogo2.png"
+        />
+      </div>
+      <i class="fa fa-bars fa-3x"></i>
+      <div class="header-links">
+        <ul>
+          <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+          <li data-menuanchor="thirdPage">
+            <a href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end navbar header -->
+
+    <!-- sidebar slider -->
+    <div class="nav-screen">
+      <i class="fa fa-times fa-3x"></i>
+      <div class="nav-container">
+        <div class="nav-links">
+          <ul id="myMenu">
+            <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+            <li data-menuanchor="thirdPage">
+              <a href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end navbar slider -->
+
+    <!-- begin fullpage -->
+    <div id="fullpage">
+      <!-- begin section -->
+      <div class="section aboutme" data-anchor="aboutme">
+        <div class="opaque-bg animated fadeInDown">
+          <h1 style="color: white">
+            BRAD<span style="color: #ff6363">/</span>ENGELHARDT
+          </h1>
+          <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+        </div>
+        <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+      </div>
+      <!-- end section -->
+
+      <!-- begin section -->
+      <div class="section" data-anchor="skills">
+        <div class="content">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">
+            Hi, I'm Brad Engelhardt! I'm a Silicon Valley based Web Designer &
+            Front-end Developer focused on creating clean, responsive web
+            designs!
+          </p>
+
+          <div class="wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+            <div class="skillbar clearfix" data-percent="90%">
+              <div class="skillbar-title" style="background: #dd1e2f">
+                <span>HTML5</span>
+              </div>
+              <div class="skillbar-bar" style="background: #dd1e2f"></div>
+              <div class="skill-bar-percent">90%</div>
+            </div>
+            <!-- End Skill Bar -->
+            <div class="skillbar clearfix" data-percent="80%">
+              <div class="skillbar-title" style="background: #ebb035">
+                <span>CSS3</span>
+              </div>
+              <div class="skillbar-bar" style="background: #ebb035"></div>
+              <div class="skill-bar-percent">80%</div>
+            </div>
+            <!-- End Skill Bar -->
+            <div class="skillbar clearfix" data-percent="100%">
+              <div class="skillbar-title" style="background: #218559">
+                <span>Photoshop</span>
+              </div>
+              <div class="skillbar-bar" style="background: #218559"></div>
+              <div class="skill-bar-percent">75%</div>
+            </div>
+            <!-- End Skill Bar -->
+            <div class="skillbar clearfix" data-percent="45%">
+              <div class="skillbar-title" style="background: #6840d4">
+                <span>Rails</span>
+              </div>
+              <div class="skillbar-bar" style="background: #6840d4"></div>
+              <div class="skill-bar-percent">45%</div>
+            </div>
+            <!-- End Skill Bar -->
+            <div class="skillbar clearfix" data-percent="30%">
+              <div class="skillbar-title" style="background: #06a2cb">
+                <span>jQuery</span>
+              </div>
+              <div class="skillbar-bar" style="background: #06a2cb"></div>
+              <div class="skill-bar-percent">30%</div>
+            </div>
+            <!-- End Skill Bar -->
+            <div class="skillbar clearfix" data-percent="20%">
+              <div class="skillbar-title" style="background: #ab4dd2">
+                <span>PHP</span>
+              </div>
+              <div class="skillbar-bar" style="background: #ab4dd2"></div>
+              <div class="skill-bar-percent">20%</div>
+            </div>
+            <!-- End Skill Bar -->
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+
+      <!-- begin section -->
+      <div class="section" data-anchor="projects">
+        <div class="content-slide">
+          <div class="slide">
+            <h1 class="wow fadeInDown" data-wow-delay="0.2s">XFAIRE</h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Digital streaming service
+            </p>
+            <img
+              class="wow fadeInUp"
+              data-wow-delay="0.2s"
+              data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/xfaire.jpg"
+            />
+          </div>
+          <div class="slide">
+            <h1>MACHETE ENERGY</h1>
+            <p>Energy drink website</p>
+            <img
+              data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/machete.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+
+      <!-- begin section -->
+      <div class="section" data-anchor="contact">
+        <div class="content wow fadeInDown" data-wow-delay="0.2s">
+          <h1>CONTACT ME</h1>
+          <p>
+            Whether you're interested in working with me or just want to say
+            hello, I'd love to hear from you!
+          </p>
+          <div class="contact-form">
+            <form
+              id="ajax-contact"
+              method="post"
+              role="form"
+              action="contact.php"
+              data-toggle="validator"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="NAME"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="EMAIL"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  placeholder="MESSAGE"
+                  required
+                ></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-lg">SEND MESSAGE</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+
+      <!-- begin section -->
+      <div class="section fp-auto-height">
+        <div class="footer">
+          <p>CONNECT WITH ME</p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/bradleyengelhardt"
+              target="_blank"
+              ><i class="fa fa-linkedin fa-2x"></i
+            ></a>
+            <a href="https://twitter.com/bradengelhardt" target="_blank"
+              ><i class="fa fa-twitter fa-2x"></i
+            ></a>
+            <a href="https://github.com/SquishyAndroid" target="_blank"
+              ><i class="fa fa-github fa-2x"></i
+            ></a>
+            <a
+              href="https://codepen.io/SquishyAndroid/pens/public/"
+              target="_blank"
+              ><i class="fa fa-codepen fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+    </div>
+    <!-- end fullpage -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // typing animation
+        (function ($) {
+          $.fn.writeText = function (content) {
+            var contentArray = content.split(""),
+              current = 0,
+              elem = this;
+            setInterval(function () {
+              if (current < contentArray.length) {
+                elem.text(elem.text() + contentArray[current++]);
+              }
+            }, 80);
+          };
+        })(jQuery);
+
+        // input text for typing animation
+        $("#holder").writeText("WEB DESIGNER + FRONT-END DEVELOPER");
+
+        // initialize wow.js
+        new WOW().init();
+
+        // Push the body and the nav over by 285px over
+        var main = function () {
+          $(".fa-bars").click(function () {
+            $(".nav-screen").animate(
+              {
+                right: "0px",
+              },
+              200
+            );
+
+            $("body").animate(
+              {
+                right: "285px",
+              },
+              200
+            );
+          });
+
+          // Then push them back */
+          $(".fa-times").click(function () {
+            $(".nav-screen").animate(
+              {
+                right: "-285px",
+              },
+              200
+            );
+
+            $("body").animate(
+              {
+                right: "0px",
+              },
+              200
+            );
+          });
+
+          $(".nav-links a").click(function () {
+            $(".nav-screen").animate(
+              {
+                right: "-285px",
+              },
+              500
+            );
+
+            $("body").animate(
+              {
+                right: "0px",
+              },
+              500
+            );
+          });
+        };
+
+        $(document).ready(main);
+
+        var scrollInProgress = false;
+
+        // Modify the event listener for the wheel event
+        $(document).on("wheel", function (e) {
+          if (scrollInProgress) {
+            e.preventDefault(); // 중복 스크롤 방지
+            return;
+          }
+
+          scrollInProgress = true;
+
+          setTimeout(function () {
+            scrollInProgress = false;
+          }, 700); // 애니메이션 전환이 끝날 때까지 대기 (scrollingSpeed와 동일한 시간)
+        });
+
+        // initiate full page scroll
+        $("#fullpage").fullpage({
+          scrollBar: true,
+          responsiveWidth: 400,
+          navigation: true,
+          navigationTooltips: [
+            "home",
+            "about",
+            "portfolio",
+            "contact",
+            "connect",
+          ],
+          anchors: ["home", "about", "portfolio", "contact", "connect"],
+          menu: "#myMenu",
+          fitToSection: true,
+          scrollingSpeed: 700, // 스크롤 전환 속도를 700ms로 설정
+          autoScrolling: false, // 자동 스크롤을 활성화하여 수동 스크롤과 충돌하지 않도록 설정
+          afterLoad: function (anchorLink, index) {
+            // 애니메이션이 끝난 후 작업
+            if (index == 1) {
+              $(".fa-chevron-down").css("opacity", "1");
+              $(".header-links a").css("color", "white");
+              $(".header-links").css("background-color", "transparent");
+            } else {
+              $(".header-links a").css("color", "black");
+              $(".header-links").css("background-color", "white");
+            }
+          },
+          onLeave: function (index, nextIndex, direction) {
+            // 스크롤을 넘어설 때 애니메이션 효과 추가
+            $(".skillbar").each(function () {
+              $(this)
+                .find(".skillbar-bar")
+                .animate(
+                  {
+                    width: $(this).attr("data-percent"),
+                  },
+                  2500
+                );
+            });
+          },
+        });
+        // move section down one
+        $(document).on("click", "#moveDown", function () {
+          $.fn.fullpage.moveSectionDown();
+        });
+
+        // fullpage.js link navigation
+        $(document).on("click", "#skills", function () {
+          $.fn.fullpage.moveTo(2);
+        });
+
+        $(document).on("click", "#projects", function () {
+          $.fn.fullpage.moveTo(3);
+        });
+
+        $(document).on("click", "#contact", function () {
+          $.fn.fullpage.moveTo(4);
+        });
+
+        // smooth scrolling
+        $(function () {
+          $("a[href*=#]:not([href=#])").click(function () {
+            if (
+              location.pathname.replace(/^\//, "") ==
+                this.pathname.replace(/^\//, "") &&
+              location.hostname == this.hostname
+            ) {
+              var target = $(this.hash);
+              target = target.length
+                ? target
+                : $("[name=" + this.hash.slice(1) + "]");
+              if (target.length) {
+                $("html,body").animate(
+                  {
+                    scrollTop: target.offset().top,
+                  },
+                  700
+                );
+                return false;
+              }
+            }
+          });
+        });
+
+        //ajax form
+        $(function () {
+          // Get the form.
+          var form = $("#ajax-contact");
+
+          // Get the messages div.
+          var formMessages = $("#form-messages");
+
+          // Set up an event listener for the contact form.
+          $(form).submit(function (e) {
+            // Stop the browser from submitting the form.
+            e.preventDefault();
+
+            // Serialize the form data.
+            var formData = $(form).serialize();
+
+            // Submit the form using AJAX.
+            $.ajax({
+              type: "POST",
+              url: $(form).attr("action"),
+              data: formData,
+            })
+              .done(function (response) {
+                // Make sure that the formMessages div has the 'success' class.
+                $(formMessages).removeClass("error");
+                $(formMessages).addClass("success");
+
+                // Set the message text.
+                $(formMessages).text(response);
+
+                // Clear the form.
+                $("#name").val("");
+                $("#email").val("");
+                $("#message").val("");
+              })
+              .fail(function (data) {
+                // Make sure that the formMessages div has the 'error' class.
+                $(formMessages).removeClass("success");
+                $(formMessages).addClass("error");
+
+                // Set the message text.
+                if (data.responseText !== "") {
+                  $(formMessages).text(data.responseText);
+                } else {
+                  $(formMessages).text(
+                    "Oops! An error occured and your message could not be sent."
+                  );
+                }
+              });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
