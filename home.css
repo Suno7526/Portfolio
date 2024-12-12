@@ -2,11 +2,35 @@
 
 body {
   font-family: "Raleway", sans-serif !important;
-  background-color: #000;
+  background-color: black;
 }
 
 ul {
-  list-style-type: none;
+  ul {
+    list-style: none; /* 기본 li 스타일 제거 */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px; /* 리스트 간격 */
+  }
+  
+  .item {
+    display: flex; /* Flexbox를 사용하여 이미지와 텍스트를 정렬 */
+    align-items: center; /* 수직 정렬 */
+  }
+  
+  .item img {
+    width: 100px; /* 이미지 크기 조정 */
+    height: auto;
+    margin-right: 10px; /* 이미지와 텍스트 사이 간격 */
+  }
+  
+  .item div {
+    font-size: 16px; /* 텍스트 스타일 조정 */
+  }
+  
 }
 
 a {
@@ -343,9 +367,9 @@ p {
   border-bottom-left-radius: 3px;
 }
 
-.skillbar-title span {
+.skillbar-title-span {
   display: block;
-  background: rgba(0, 0, 0, 0.15);
+  background: red;
   padding: 0 20px;
   height: 30px;
   line-height: 30px;
@@ -711,4 +735,29 @@ label {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+.card {
+  max-width: 550px;
+  border: 0;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.container-card {
+  position: relative;
+  border: 2px solid transparent;
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  border-radius: 45px;
+  margin-right: 20px;
+  padding: 40px;
+}
+.container-card img {
+  margin-bottom: 32px;
+}
+
+.bg-green-box,
+.bg-white-box,
+.bg-yellow-box,
+.bg-blue-box {
+  position: relative;
 }
