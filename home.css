@@ -323,7 +323,7 @@ p {
 
 .container-skillbar {
   width: 30%;
-  height: 600px;
+  height: 650px;
   display: flex;
 }
 .skillbar {
@@ -401,7 +401,7 @@ p {
 /* portfolio section */
 
 .content {
-  margin-top: 100px;
+  margin-top: 0px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -693,7 +693,12 @@ label {
   display: flex;
   justify-content: center;
 }
-
+.card-title{
+  margin-bottom:12px;
+}
+.card-description{
+  margin-bottom: 12px;
+}
 .container-card {
   position: relative;
   border: 2px solid transparent;
