@@ -398,7 +398,13 @@ p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* portfolio section */
+
+.highlight {
+  color: red !important;
+  font-weight: bold !important;
+}
+
+
 
 .content {
   margin-top: 0px;
