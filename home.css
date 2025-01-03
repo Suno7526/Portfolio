@@ -398,13 +398,10 @@ p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-
-.highlight {
-  color: red !important;
-  font-weight: bold !important;
+.card-infomation{
+  color: white;
+  font-size: 20px;
 }
-
-
 
 .content {
   margin-top: 0px;
