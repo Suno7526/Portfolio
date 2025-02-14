@@ -4,6 +4,10 @@ body {
   font-family: "Raleway", sans-serif !important;
   background-color: black;
 }
+div {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 15px;
+}
 
 ul {
   ul {
@@ -11,26 +15,25 @@ ul {
     padding: 0px;
     margin: 0px;
   }
-  
+
   li {
     margin-bottom: 10px; /* 리스트 간격 */
   }
-  
+
   .item {
     display: flex; /* Flexbox를 사용하여 이미지와 텍스트를 정렬 */
     align-items: center; /* 수직 정렬 */
   }
-  
+
   .item img {
     width: 100px; /* 이미지 크기 조정 */
     height: auto;
     margin-right: 10px; /* 이미지와 텍스트 사이 간격 */
   }
-  
+
   .item div {
     font-size: 16px; /* 텍스트 스타일 조정 */
   }
-  
 }
 
 a {
@@ -45,8 +48,7 @@ h1 {
 
 p {
   margin: 10px;
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 15px;
   color: white;
 }
 
@@ -398,7 +400,7 @@ p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.card-infomation{
+.card-infomation {
   color: white;
   font-size: 20px;
 }
@@ -664,7 +666,6 @@ label {
   animation: 1s blink step-end infinite;
 }
 
-
 .success {
   padding: 1em;
   margin-bottom: 0.75rem;
@@ -696,10 +697,10 @@ label {
   display: flex;
   justify-content: center;
 }
-.card-title{
-  margin-bottom:12px;
+.card-title {
+  margin-bottom: 12px;
 }
-.card-description{
+.card-description {
   margin-bottom: 12px;
 }
 .container-card {
@@ -717,9 +718,9 @@ label {
   height: 100px;
 }
 
-.bg-white-box{
+.bg-white-box {
   position: relative;
-  float:left;
+  float: left;
 }
 
 .circle-bg {
@@ -739,4 +740,8 @@ label {
   max-width: 70%; /* 이미지 크기를 컨테이너에 맞게 조정 */
   max-height: 70%; /* 이미지 크기를 컨테이너에 맞게 조정 */
   border-radius: 50%; /* 필요 시 이미지도 둥글게 */
+}
+
+.custom-link:visited {
+  color: #06a2cb !important; /* 방문한 링크 색상을 동일하게 유지 */
 }
